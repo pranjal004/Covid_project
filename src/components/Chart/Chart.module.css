@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    /* margin: -2% 8% 5% 25% !important;
+    width: 50%;
+    height: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7cgufJhNt8O3c17ATEB2O-DleMuLgNSXRSA&usqp=CAU"); */
+}
+
+@media (max-width: 770px){
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% 2% !important;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7cgufJhNt8O3c17ATEB2O-DleMuLgNSXRSA&usqp=CAU"); */
+}
+
+.infected{
+    background-color: #84a9ac;
+    border-bottom: 10px solid #0f4c75;
+}
+.recovered{
+    border-bottom: 10px solid #519872;
+}
+.deaths{
+    border-bottom: 10px solid rgba(245, 23, 23, 0.877);
+}
+
+@media (max-width: 770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
