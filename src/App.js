@@ -4,7 +4,7 @@ import Chart from './components/Chart/Chart';
 import CountryPicker from './components/CountryPicker/CountryPicker';
 import styles from "./App.module.css";
 import cx from "classnames";
-import { fetchData, countries } from "./api";
+import { fetchData } from "./api";
 import cimage from "./images/image.png";
 
 class App extends React.Component {
